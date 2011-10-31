@@ -19,6 +19,7 @@ public class PriceCalculator {
 
 	public void setPrice(int price) {
 		this.price = price;
+		this.duration = 0;
 	}
 
 	public void resetDuration() {
